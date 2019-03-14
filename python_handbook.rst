@@ -27,6 +27,7 @@ option1 = value1
 
 option2 = value2 
 
+
 [section1] 
 
 option0 = value0 
@@ -34,6 +35,7 @@ option0 = value0
 option1 = value1 
 
 option2 = value2
+
 
 - ConfigParser.read(filename)：读取配置文件。
 - ConfigParser.sections()：返回一个包含所有sections的list。
