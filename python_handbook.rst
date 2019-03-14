@@ -4,6 +4,31 @@ Python Handbooks by Jinhh
 
 模块介绍
 --------
+* test
+`test`
+**test**
+``test``
+```test```
+test::
+    test
+^^^^
+www.baidu.com
+.. _ref:http://xxx.com
+
+test
+----
+test
+>>>>
+test
+::::
+test
+''''
+- test
++ test
+* test
+:test:
+:test
+
 
 定义: ``argparse`` 是python标准库里用来处理命令行参数的库::
 
