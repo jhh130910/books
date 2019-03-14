@@ -4,22 +4,12 @@ Python Handbooks by Jinhh
 
 模块介绍
 --------
-**test**
 
-+ test
-
-* test
-
-:test:
-
-:test
-
+:argparse:
 
 定义: ``argparse`` 是python标准库里用来处理命令行参数的库::
 
-命令行参数：
-
-两种，位置参数和选项参数
+命令行参数两种，位置参数和选项参数:
 
     位置参数，程序根据该参数出现的位置来确定 如：ls root，root就是位置参数
 
