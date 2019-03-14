@@ -63,5 +63,6 @@ Part 1 ^^
 Part 2 ==
 ==========
 
-    xxxxxxxx
-:xxxxx:
+    import os
+    if os.path.exists('/path/obj'):
+        print ( "its ok\n" )
