@@ -39,4 +39,4 @@ ConfigParser
 函数式、OOP、装饰器、包
 -----------------------
 
-
+    The simplest way to install the package is via ``easy_install`` or
