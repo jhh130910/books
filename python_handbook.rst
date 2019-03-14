@@ -1,6 +1,11 @@
-argparse
+==============================
+Python Handbooks 撰写人：JinHH
+==============================
 
-定义：argparse 是python标准库里用来处理命令行参数的库
+模块介绍
+--------
+
+定义：``argparse``是python标准库里用来处理命令行参数的库::
 
 命令行参数：
 
@@ -30,4 +35,8 @@ ConfigParser
 - ConfigParser.add_section(section)
 - ConfigParser.set(section, option, value)：可直接修改现有option
 - ConfigParser.write(file(filename, 'w'))
+
+函数式、OOP、装饰器、包
+-----------------------
+
 
