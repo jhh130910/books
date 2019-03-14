@@ -1,5 +1,5 @@
 ==============================
-Python Handbooks 撰写人：JinHH
+Python Handbooks by Jinhh 
 ==============================
 
 模块介绍
