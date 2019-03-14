@@ -4,29 +4,14 @@ Python Handbooks by Jinhh
 
 模块介绍
 --------
-* test
-`test`
 **test**
-``test``
-```test```
-test::
-    test
-^^^^
-www.baidu.com
-.. _ref:http://xxx.com
 
-test
-----
-test
->>>>
-test
-::::
-test
-''''
-- test
 + test
+
 * test
+
 :test:
+
 :test
 
 
