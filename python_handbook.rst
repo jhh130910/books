@@ -24,6 +24,9 @@ Python Handbooks by Jinhh
 
     选项参数，程序已经提前定义好的参数， 如：ls -l，-l就是一个选项参数
 
+code block::
+    python xxxx.py
+
 ConfigParser
 
 [section0] 
