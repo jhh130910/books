@@ -5,7 +5,7 @@ Python Handbooks by Jinhh
 模块介绍
 --------
 
-定义：``argparse``是python标准库里用来处理命令行参数的库::
+定义: ``argparse`` 是python标准库里用来处理命令行参数的库::
 
 命令行参数：
 
