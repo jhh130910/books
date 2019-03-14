@@ -12,14 +12,17 @@ Python Handbooks by Jinhh
 - 位置参数，程序根据该参数出现的位置来确定 如：ls root，root就是位置参数
 - 选项参数，程序已经提前定义好的参数， 如：ls -l，-l就是一个选项参数
 
-code block::
+code demo::
 
-    python xxxx.py
+    parser=argparse.ArgumentParse()#创建一个解析对象
+    parser.add_argument() #添加命令行参数和选项
+    parser.parse_args() #解析
+    
 
 :ConfigParser:
 ==============
 
-配置文件格式::
+Config配置文件格式::
 
     [section0] 
     option0 = value0 
