@@ -73,7 +73,10 @@ OOP思想与应用
 
     ``decorator``，内置装饰器，staticmethod ，classmethod，等与自定义装饰器
 
+包-package
+^^^^^^^^^^
 
+    内置包，第三方包，自定义包
 
 Also See
 --------
@@ -81,7 +84,8 @@ Also See
 其他方面
 ==========
 
-代码举例::
+
+os模块举例::
 
     import os
     if os.path.exists('/path/obj'):
