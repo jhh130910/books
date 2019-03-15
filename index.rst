@@ -1,24 +1,24 @@
 ==============================
-Python Handbooks by Jinhh 
+Python Handbooks @ by Jinhh 
 ==============================
 
-1 - Python 架构
+1 - Python Core  
 -----------
 
-1.1 环境参数::
+1.1 ENV::
 
     PYTHONIOENCODING=UTF-8 
     PYTHONUNBUFFERED=1 
 
-2 - Python 模块
+2 - Python Module 
 ---------------
 
-:argparse:
+argparse
 ==========
 
-定义: ``argparse`` 是python标准库里用来处理命令行参数的库::
+Define: ``argparse`` standard library command line parameter::
 
-命令行参数两种，位置参数和选项参数:
+Two type，position parameter and option parameter:
 
 - 位置参数，程序根据该参数出现的位置来确定 如：ls root，root就是位置参数
 - 选项参数，程序已经提前定义好的参数， 如：ls -l，-l就是一个选项参数
@@ -30,8 +30,8 @@ code demo::
     parser.parse_args() #解析
     
 
-:ConfigParser:
-==============
+ConfigParser
+============
 
 Config配置文件格式::
 
@@ -80,6 +80,7 @@ XX::
 XX::
 
     - ``面向对象``编程与应用环境
+
 XX::
 
     xxxxx
