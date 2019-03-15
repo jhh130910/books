@@ -2,15 +2,15 @@
 Python Handbooks by Jinhh 
 ==============================
 
-Python 架构
+1 - Python 架构
 -----------
 
-环境参数::
+1.1 环境参数::
 
     PYTHONIOENCODING=UTF-8 
     PYTHONUNBUFFERED=1 
 
-Python 模块
+2 - Python 模块
 ---------------
 
 :argparse:
@@ -55,39 +55,35 @@ Config配置文件格式::
 - ConfigParser.set(section, option, value)：可直接修改现有option
 - ConfigParser.write(file(filename, 'w'))
 
-函数式、OOP、装饰器、包
+3 - 函数式、OOP、装饰器、包
 -----------------------
 
     备注：一级，二级标题不可以越级    
 
-函数式def联合class
+3.1 函数式def联合class
 ==================
 
     ``函数式``编程，分治思想，流程思维
 
 
-OOP思想与应用
-=============
+3.2 OOP思想与应用
+=================
 
-XX::
     ``面向对象``编程与应用环境
 
 
-装饰器的应用
-^^^^^^^^^^^^
+3.3 装饰器的应用
+================
 
     ``decorator``，内置装饰器，staticmethod ，classmethod，等与自定义装饰器
 
-包-package
-^^^^^^^^^^
+3.4 包-package
+==============
 
     内置包，第三方包，自定义包
 
 Also See
 --------
-
-其他方面
-========
 
 os模块举例::
 
