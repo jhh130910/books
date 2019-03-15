@@ -5,6 +5,9 @@ Python Handbooks @ by Jinhh
 1 - Python Core  
 -----------
 
+1.1 env + base set
+==================
+
 env::
 
     PYTHONIOENCODING=UTF-8 
