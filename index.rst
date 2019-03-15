@@ -58,18 +58,30 @@ Config配置文件格式::
 函数式、OOP、装饰器、包
 -----------------------
 
-    The simplest way to install the package is via ``easy_install`` or
+函数式def联合class
+==================
+    
+    ``函数式``编程
+
+OOP思想与应用
+=============
+
+    ``面向对象``编程与应用环境
+
+装饰器的应用
+============
+
+    ``decorator``，内置装饰器，staticmethod ，classmethod，等与自定义装饰器
+
+
 
 Also See
 --------
 
-Part 1 ^^
-^^^^^^^^^^
-    
-    xxxxxxxx
-
-Part 2 ==
+其他方面
 ==========
+
+代码举例::
 
     import os
     if os.path.exists('/path/obj'):
