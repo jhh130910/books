@@ -2,6 +2,16 @@
 Python Handbooks by Jinhh 
 ==============================
 
+Python 架构
+-----------
+
+环境参数::
+    PYTHONIOENCODING=UTF-8 
+    PYTHONUNBUFFERED=1 
+
+Python 模块
+---------------
+
 :argparse:
 ==========
 
