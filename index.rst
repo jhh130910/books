@@ -21,7 +21,7 @@ Define: ``argparse`` standard library command line parameter::
 Two type，position parameter and option parameter:
 
 - python xx.py arg_1 arg_2
-- python xx.py -g arg_ 
+- python xx.py -g arg_1 
 
 code demo::
 
