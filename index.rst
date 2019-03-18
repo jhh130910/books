@@ -80,6 +80,33 @@ CMD::
     DELETE FROM <table> WHERE <EXPR.. id=1..>;
     truncate table; （ can't recovery ）
 
+EXAMPLE 1::
+    
+    import MySQLdb
+
+    conn=MySQLdb.connect(host='localhost',user='xiaojin',passwd='',db='test',charset='utf8')
+    
+    cur=conn.cursor()
+    
+    cur.execute("""
+    create table if not EXISTS jinhh1
+    (
+      userid int(11) PRIMARY KEY ,
+      username VARCHAR(20)
+    )
+    """)
+    
+    for i in range(1,1000000):
+        #print ( " test '{0}','{1}'".format(int(i), 'XX'+str(i) ) )
+        cur.execute ( 
+            "insert into jinhh(userid,username) values( '{}', '{}' ) ".format( int(i),'Name'+ str(i) )
+            )
+    
+    conn.commit()
+    cur.close()
+    conn.close()
+
+
 3 - OOP、decorator、package
 -----------------------
 
