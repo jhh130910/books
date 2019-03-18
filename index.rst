@@ -62,7 +62,8 @@ Config file format::
 2.3 MySQLdb
 ===========
 
-    
+CMD::    
+
     use <db name>; 
     
     show tables; 
