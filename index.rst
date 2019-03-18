@@ -59,6 +59,18 @@ Config file format::
 - ConfigParser.set(section, option, value) # directly modify option value
 - ConfigParser.write(file(filename, 'w'))
 
+2.3 MySQLdb
+===========
+
+desc table_xx_name::
+
+    +----------+-------------+------+-----+---------+-------+
+    | Field    | Type        | Null | Key | Default | Extra |
+    +----------+-------------+------+-----+---------+-------+
+    | userid   | int(11)     | NO   | PRI | NULL    |       |
+    | username | varchar(20) | YES  |     | NULL    |       |
+    +----------+-------------+------+-----+---------+-------+
+
 3 - OOP、decorator、package
 -----------------------
 
