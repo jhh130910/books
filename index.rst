@@ -62,7 +62,12 @@ Config file format::
 2.3 MySQLdb
 ===========
 
-desc table_xx_name::
+    
+    use <db name>; 
+    
+    show tables; 
+
+    desc <table name>;
 
     +----------+-------------+------+-----+---------+-------+
     | Field    | Type        | Null | Key | Default | Extra |
@@ -70,6 +75,9 @@ desc table_xx_name::
     | userid   | int(11)     | NO   | PRI | NULL    |       |
     | username | varchar(20) | YES  |     | NULL    |       |
     +----------+-------------+------+-----+---------+-------+
+
+    DELETE FROM <table> WHERE <EXPR.. id=1..>;
+    truncate table; （ can't recovery ）
 
 3 - OOP、decorator、package
 -----------------------
