@@ -16,4 +16,10 @@
 4. Github and Git handbook
     拟整理对一般水平的读者快速了解Git命令和与Github交互提交代码更新，删除等。
 
+## 
+sphinx-quickstart
+make html
+make latexpdf 
+make latexpdf
+sphinx-quickstart docs
 ```

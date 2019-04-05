@@ -2,13 +2,6 @@
 Python Handbooks @ by Jinhh 
 ==============================
 
-NEW::
-    
-    requests，使用 Python 访问 HTTP 资源的必备库。
-    docopt，Python3 命令行参数解析工具。
-    prettytable， 格式化信息打印工具，能让你像 MySQL 那样打印数据。
-    colorama，命令行着色工具
-
 1 - Python Core  
 -----------
 
@@ -66,54 +59,6 @@ Config file format::
 - ConfigParser.set(section, option, value) # directly modify option value
 - ConfigParser.write(file(filename, 'w'))
 
-2.3 MySQLdb
-===========
-
-CMD::    
-
-    use <db name>; 
-    
-    show tables; 
-
-    desc <table name>;
-
-    +----------+-------------+------+-----+---------+-------+
-    | Field    | Type        | Null | Key | Default | Extra |
-    +----------+-------------+------+-----+---------+-------+
-    | userid   | int(11)     | NO   | PRI | NULL    |       |
-    | username | varchar(20) | YES  |     | NULL    |       |
-    +----------+-------------+------+-----+---------+-------+
-
-    DELETE FROM <table> WHERE <EXPR.. id=1..>;
-    truncate table; （ can't recovery ）
-
-EXAMPLE 1::
-    
-    import MySQLdb
-
-    conn=MySQLdb.connect(host='localhost',user='xiaojin',passwd='',db='test',charset='utf8')
-    
-    cur=conn.cursor()
-    
-    cur.execute("""
-    create table if not EXISTS jinhh1
-    (
-      userid int(11) PRIMARY KEY ,
-      username VARCHAR(20)
-    )
-    """)
-    
-    for i in range(1,1000000):
-        #print ( " test '{0}','{1}'".format(int(i), 'XX'+str(i) ) )
-        cur.execute ( 
-            "insert into jinhh(userid,username) values( '{}', '{}' ) ".format( int(i),'Name'+ str(i) )
-            )
-    
-    conn.commit()
-    cur.close()
-    conn.close()
-
-
 3 - OOP、decorator、package
 -----------------------
 
@@ -154,12 +99,8 @@ package type::
 Also See
 --------
 
-magic __XXX__::
-
-    module __all__ ,import this module，just use __all__ = ['xxx'] contain method
-    module __slots__, class attributes ...
-
 os::
+
     import os
     if os.path.exists('/path/obj'):
         print ( "its ok\n" )
